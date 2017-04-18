@@ -1,0 +1,88 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.lavive</groupId>
+  <artifactId>cnam.nsy209.selServices</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>selServices_server</name>
+  <description>projet cnam selServices coté serveur</description>
+  
+  
+  <dependencies>
+  
+	<!-- https://mvnrepository.com/artifact/org.eclipse.persistence/eclipselink -->
+	<dependency>
+	    <groupId>org.eclipse.persistence</groupId>
+	    <artifactId>eclipselink</artifactId>
+	    <version>2.6.4</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.eclipse.persistence/javax.persistence -->
+	<dependency>
+	    <groupId>org.eclipse.persistence</groupId>
+	    <artifactId>javax.persistence</artifactId>
+	    <version>2.1.1</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/javax.inject/javax.inject -->
+	<dependency>
+	    <groupId>javax.inject</groupId>
+	    <artifactId>javax.inject</artifactId>
+	    <version>1</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/javax.interceptor/javax.interceptor-api -->
+	<dependency>
+	    <groupId>javax.interceptor</groupId>
+	    <artifactId>javax.interceptor-api</artifactId>
+	    <version>1.2</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/javax.transaction/javax.transaction-api -->
+	<dependency>
+	    <groupId>javax.transaction</groupId>
+	    <artifactId>javax.transaction-api</artifactId>
+	    <version>1.2</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+	<dependency>
+	    <groupId>javax.mail</groupId>
+	    <artifactId>mail</artifactId>
+	    <version>1.4.7</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.json/json -->
+	<dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>20160810</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/javax.ws.rs/jsr311-api -->
+	<dependency>
+	    <groupId>javax.ws.rs</groupId>
+	    <artifactId>jsr311-api</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
+	
+	
+	
+	<!-- https://mvnrepository.com/artifact/junit/junit -->
+	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.12</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/hsqldb/hsqldb -->
+	<dependency>
+	    <groupId>hsqldb</groupId>
+	    <artifactId>hsqldb</artifactId>
+	    <version>1.8.0.10</version>
+	    <scope>test</scope>
+	</dependency>
+	
+  
+  </dependencies>
+</project>
